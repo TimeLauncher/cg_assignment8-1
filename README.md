@@ -100,5 +100,8 @@ The loop is designed to implement the core mode of instant mode, where the CPU t
 
 ![image](https://github.com/user-attachments/assets/3311b23e-d109-4d33-983c-26034d52a97a)
 
+Every frame, a display() function is called to adjust the size and position of the model and execute the actual drawing function renderSceneQ1().
+
+![image](https://github.com/user-attachments/assets/7b8bec6d-bc16-4024-9a1e-24f2b17770d9)
 
 
