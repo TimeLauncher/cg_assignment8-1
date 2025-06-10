@@ -12,7 +12,8 @@ How to Use
 3. open "OpenglViewer.sln"  
 ![leanch](https://github.com/user-attachments/assets/1ed43ef3-d812-4b75-809d-fe1077eabf9b)
 ---
-Result of assignmet8
+Result of assignmet8-1 
+FPS=1377
 
 ![스크린샷 2025-05-08 162804](https://github.com/user-attachments/assets/e4b9e9e5-8f1c-4161-b903-0df9afa9ce07)
 
@@ -103,5 +104,10 @@ The loop is designed to implement the core mode of instant mode, where the CPU t
 Every frame, a display() function is called to adjust the size and position of the model and execute the actual drawing function renderSceneQ1().
 
 ![image](https://github.com/user-attachments/assets/7b8bec6d-bc16-4024-9a1e-24f2b17770d9)
+
+The main function loads data into CPU memory with load_mesh and then immediately enters the rendering loop without a separate GPU data preparation process.
+
+![image](https://github.com/user-attachments/assets/a0dfa9d2-3776-4383-9ab4-ca4235b49326)
+
 
 
